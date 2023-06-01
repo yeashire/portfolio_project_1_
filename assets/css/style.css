@@ -6,6 +6,20 @@
     border: none;
 }
 body{ 
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    
     font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    color: olive;
+}
+#logo{
+    float: left;
+    font-size: 300%;
 }
