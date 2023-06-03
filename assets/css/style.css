@@ -16,7 +16,7 @@ body{
 h1, h2 {
     font-family: 'Playfair Display', serif;
     letter-spacing: 3px;
-    color: olive;
+    color: #3a3a3a;
 }
 #logo{
     width: 100%;
@@ -31,6 +31,7 @@ h1, h2 {
 
 #menu {
     font-size: 120%;
+    font-weight: bold;
     letter-spacing: 3px;
     text-align: center;
     background: #bef0c1;
@@ -55,19 +56,70 @@ h1, h2 {
 
 
 #main-section {
-    height: 700px;
+    height: 400px;
 }
 #left-about {
-    padding-top: 35px;
+    font-size: 120%;
+    padding-top: 150px;
     width: 50%;
+    text-align: center;
     float: left;
     background-color: aqua;
+    
+}
+
+ .left-about-heading {
+    width: 100%;
+    float: left;
+    line-height: 40px;
+    margin-bottom: 20vh;
+    clear: both;
+    background-color: aqua;
+
 }
 
 #right-about {
-    padding-top: 35px;
+    padding-top: 0px;
     width: 50%;
+    
+    text-align: center;
     float: right;
     background-color: #f5b1ec;
 
+}
+
+.right-about-heading {
+    width: 100%;
+    
+    float: right;
+    line-height: 40px;
+    margin-bottom: 0vh;
+    clear: both;
+    background-color: #f5b1ec;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+    
+}
+/* quote section */
+#quote-section {
+    height: 250px;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    background: #c28787;
+    
+}
+/* footer section  */
+#footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: #f5b1ec;
+    
 }
