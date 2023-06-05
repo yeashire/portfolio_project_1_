@@ -168,10 +168,12 @@ footer {
 }
 
 #imgFrame {
-    width: auto;
+    width: 500px;
+    height: 800px;
     border: 30px solid red;
     padding: 5%;
     margin:5%;
+    
 }
 
 #right-aboutme {
