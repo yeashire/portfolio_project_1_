@@ -172,16 +172,18 @@ footer {
     height: 800px;
     border: 30px solid red;
     padding: 5%;
-    margin:5%;
+    margin: 5%;
+    float: right;
     
 }
 
 #right-aboutme {
-    padding-top: 150px;
-    width: 50%;
-    font-size: 200%;
-    text-align: center;
-    float: right;
+    padding-top: 75px;
+    width: 500px;
+    font-size: 100%;
+    text-align: justify;
+    margin: 3%;
+    float: left;
     background-color: #f5b1ec;
 
 }
@@ -191,7 +193,7 @@ footer {
     
     float: right;
     line-height: 200%;
-    margin-bottom: 120vh;
+    margin-bottom: 0vh;
     clear: both;
     background-color: #f5b1ec;
 }
@@ -199,7 +201,7 @@ footer {
 /* services section */
 
 div.gallery {
-    border: 10px solid #3a3a3a;
+    border: 5px solid #3a3a3a;
 }
 div.gallery img {
     width: 100%;
@@ -227,4 +229,13 @@ div.description {
     clear: both;
 }
 
-
+#fees-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20 px;
+    font-size: 150%;
+}
+#fees-text h3 {
+    text-align: center;
+}
