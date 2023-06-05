@@ -106,20 +106,37 @@ img {
 }
 /* quote section */
 #quote-section {
-    height: 250px;
-    padding-top: 50px;
+    height: 150px;
+    padding-top: 75px;
     width: 100%;
     text-align: center;
     float: left;
     background: #c28787;
     
 }
+
 /* footer section  */
-#footer {
-    height: 50px;
+
+footer {
+    height: 30px;
     width: 100%;
     text-align: center;
-    float: left;
+   
     background-color: #f5b1ec;
-    
+      
+}
+.social-media {
+    text-align: center;
+}
+
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 120%;
+    margin: 0%;
+    padding: 5%;
+    color: #3a3a3a
 }
