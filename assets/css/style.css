@@ -23,7 +23,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     height: 100px;
-    background: #c28787;
+    background: #FFFFFF;
     padding-left: 35px;
     padding-top: 20px;
 }
@@ -34,7 +34,7 @@ h1, h2 {
     font-weight: bold;
     letter-spacing: 3px;
     text-align: center;
-    background: #bef0c1;
+    background: lightgray;
     
 }   
 .menu ul {
@@ -65,7 +65,7 @@ h1, h2 {
     width: 50%;
     text-align: center;
     float: left;
-    background-color: aqua;
+    background-color: #FFFFFF;
     
 }
 
@@ -75,7 +75,7 @@ h1, h2 {
     line-height: 40px;
     margin-bottom: 20vh;
     clear: both;
-    background-color: aqua;
+    background-color:#FFFFFF;
 
 }
 
@@ -85,7 +85,7 @@ h1, h2 {
     
     text-align: center;
     float: right;
-    background-color: #f5b1ec;
+    background-color:#FFFFFF;
 
 }
 
@@ -96,7 +96,7 @@ h1, h2 {
     line-height: 40px;
     margin-bottom: 0vh;
     clear: both;
-    background-color: #f5b1ec;
+    background-color:#FFFFFF;
 }
 
 img {
@@ -106,6 +106,7 @@ img {
     
 }
 /* quote section */
+
 #quote-section {
     height: 150px;
     padding-top: 75px;
@@ -113,7 +114,7 @@ img {
     text-align: center;
     font-style: italic;
     float: left;
-    background: #c28787;
+    background: #FFFFFF;
     
 }
 
@@ -124,11 +125,12 @@ footer {
     width: 100%;
     text-align: center;
     float: left;
-    background-color: #f5b1ec;
+    background-color: #FFFFFF;
       
 }
 .social-media {
     text-align: center;
+    background-color: #ad5252
 }
 
 
@@ -138,12 +140,13 @@ footer {
 
 .social-media i {
     font-size: 200%;
-    margin: 1%;
-    padding: 5%;
+    margin: 2px;
+    padding: 10px;
     color: #3a3a3a
 }
 
 /* aboutme */
+
 #main-section {
     height: 400px;
 }
@@ -153,7 +156,7 @@ footer {
     width: 50%;
     text-align: center;
     float: left;
-    background-color: aqua;
+    background-color: #FFFFFF;
     
 }
 
@@ -163,14 +166,14 @@ footer {
     line-height: 0px;
     margin-bottom: 0vh;
     clear: both;
-    background-color: aqua;
+    background-color: #FFFFFF;
 
 }
 
 #imgFrame {
     width: 500px;
     height: 800px;
-    border: 30px solid red;
+    border: 30px solid #FFFFFF;
     padding: 5%;
     margin: 5%;
     float: right;
@@ -184,7 +187,7 @@ footer {
     text-align: justify;
     margin: 3%;
     float: left;
-    background-color: #f5b1ec;
+    background-color: #FFFFFF;
 
 }
 
@@ -195,7 +198,7 @@ footer {
     line-height: 200%;
     margin-bottom: 0vh;
     clear: both;
-    background-color: #f5b1ec;
+    background-color: #FFFFFF;
 }
 
 /* services section */
@@ -243,25 +246,29 @@ div.description {
 
 .contact-section{
     clear: left;
-    background: #b6c5f7;
+    background: #FFFFFF;
     background-size: cover;
     background-position: center;
     height: 600px;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 10px 0 25%;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    background-color: rgba(119, 158, 128, 0.6);
+    max-width: 600px;
     position: absolute;
     left: 10%;
     padding: 30px;
+    border: 1px solid #3a3a3a;
+    
 }
 
-.sign_up h2 {
+.sign_up h3 {
 color: #fafafa;
-margin-bottom: 20px;
+margin-bottom: 35px;
+text-align: center;
+
 }
 
 .text-input{
@@ -280,12 +287,12 @@ border-radius: 2px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    background-color: #f16c6b;
+    background-color: #2f6d3c;
     color: #fafafa;
     display: block
 }
 
 .signup-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #2f6d3c
 }
