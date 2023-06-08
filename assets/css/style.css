@@ -5,7 +5,8 @@
     padding: 0;
     border: none;
 }
-body{ 
+
+body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
@@ -13,12 +14,14 @@ body{
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Playfair Display', serif;
     letter-spacing: 3px;
     color: #3a3a3a;
 }
-#logo{
+
+#logo {
     width: 100%;
     float: left;
     font-size: 300%;
@@ -27,6 +30,7 @@ h1, h2 {
     padding-left: 35px;
     padding-top: 20px;
 }
+
 /* navigation links */
 
 #menu {
@@ -39,32 +43,40 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-}   
+
+}
+
 .menu ul {
     list-style-type: none;
 }
+
 .blockline {
-    display:inline-block;
+    display: inline-block;
 }
 
 #menu li {
     list-style-type: none;
     padding-left: 135px;
 }
-#menu a{
+
+.blockline:hover {
+    text-decoration: underline #3a3a3a;
+}
+
+
+#menu a {
     text-decoration: none;
     color: inherit;
-    
+
 }
+
 /* main section */
-
-
 #main-section {
-  width: 100%;
-  display: flex;
-  padding: 1em;
+    width: 100%;
+    display: flex;
+    padding: 1em;
 }
+
 #left-about {
     font-size: 120%;
     padding-top: 200px;
@@ -72,17 +84,17 @@ h1, h2 {
     text-align: center;
     float: left;
     background-color: #FFFFFF;
-    
 }
 
- .left-about-heading {
+.left-about-heading {
     width: 100%;
     float: left;
     line-height: 40px;
     margin-bottom: 20vh;
     clear: both;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
+
 .left-about-heading p {
     font-weight: 300;
     font-weight: bold;
@@ -92,31 +104,28 @@ h1, h2 {
 #right-about {
     padding-top: 80px;
     width: 50%;
-    
+
     text-align: center;
     float: right;
-    background-color:#FFFFFF;
-
+    background-color: #FFFFFF;
 }
 
 .right-about-heading {
     width: 100%;
-    
+
     float: right;
     line-height: 40px;
     margin-bottom: 0vh;
     clear: both;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
 img {
     width: 80%;
     height: auto;
-    
-    
 }
-/* quote section */
 
+/* quote section */
 #quote-section {
     height: 150px;
     margin-bottom: 75px;
@@ -126,26 +135,23 @@ img {
     font-style: italic;
     float: left;
     background: #FFFFFF;
-    
 }
 
 /* footer section  */
-
 footer {
     height: 50px;
     width: 100%;
     text-align: center;
     float: left;
     background-color: #FFFFFF;
-      
 }
+
 .social-media {
     text-align: center;
     background-color: lightgray;
 }
 
-
-.social-media > li {
+.social-media>li {
     display: inline;
 }
 
@@ -156,11 +162,12 @@ footer {
     color: #3a3a3a
 }
 
+.social-media i:hover {
+    color: #2f6d3c;
+
+}
+
 /* aboutme */
-
-
- 
-
 #left-aboutme {
     font-size: 120%;
     padding-top: 0px;
@@ -168,10 +175,10 @@ footer {
     text-align: center;
     float: left;
     background-color: #FFFFFF;
-    
+
 }
 
- .left-aboutme-heading {
+.left-aboutme-heading {
     width: 100%;
     float: right;
     line-height: 0px;
@@ -188,7 +195,7 @@ footer {
     padding: 5%;
     margin: 5%;
     float: right;
-    
+
 }
 
 #right-aboutme {
@@ -204,7 +211,6 @@ footer {
 
 .right-aboutme-heading {
     width: 100%;
-    
     float: right;
     line-height: 200%;
     margin-bottom: 0vh;
@@ -213,22 +219,20 @@ footer {
 }
 
 /* services section */
-
 div.gallery {
-   margin: 40px;
-   /*border: 2px solid #3a3a3a;*/
-   float: left;
-   width: 400px;
+    margin: 40px;
+    float: left;
+    width: 400px;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
 }
+
 div.description {
     padding: 30px;
     text-align: center;
-    
 }
 
 * {
@@ -240,7 +244,6 @@ div.description {
     width: 33%;
     display: inline-flex;
     justify-content: center;
-
 }
 
 .clearfix:after {
@@ -254,6 +257,7 @@ div.description {
     margin: 20px;
     font-size: 150%;
 }
+
 #fees-text h3 {
     text-align: center;
 }
@@ -282,25 +286,22 @@ div.description {
     padding: 30px;
     border: 1px solid #3a3a3a;
     margin: 0 2em;
-    
 }
 
 .sign_up h3 {
-color: #fafafa;
-margin-bottom: 35px;
-text-align: center;
-
+    color: #fafafa;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
-.text-input{
-background-color: transparent;
-color: #fafafa;
-width: 100%;
-height: 25px;
-margin: 5px 0 20px 0;
-border: 1px solid #fafafa;
-border-radius: 2px;
-
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .signup-button {
