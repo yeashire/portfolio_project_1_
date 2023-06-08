@@ -82,7 +82,11 @@ h1, h2 {
     margin-bottom: 20vh;
     clear: both;
     background-color:#FFFFFF;
-
+}
+.left-about-heading p {
+    font-weight: 300;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 #right-about {
