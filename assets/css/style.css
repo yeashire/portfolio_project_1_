@@ -318,3 +318,34 @@ div.description {
     background-color: #fafafa;
     color: #2f6d3c
 }
+
+/* response section */
+.response-section {
+    background: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.response-message {
+    color: #fff;
+    background-color: #3a3a3a;
+    max-width: 600px;
+    position: absolute;
+    padding: 30px;
+    border: 1px solid #3a3a3a;
+    margin: 0 2em;
+}
+
+.response-message h3 {
+    font-size: 200%;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+}
+.response-message p {
+    
+}
