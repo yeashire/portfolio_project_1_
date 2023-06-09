@@ -337,7 +337,7 @@ div.description {
     max-width: 600px;
     position: absolute;
     padding: 30px;
-    border: 1px solid #3a3a3a;
+    border: 5px solid #3a3a3a;
     margin: 0 2em;
 }
 
@@ -346,6 +346,8 @@ div.description {
     font-family: 'Playfair Display', serif;
     letter-spacing: 2px;
 }
+
 .response-message p {
-    
+    text-align: center;
+
 }
