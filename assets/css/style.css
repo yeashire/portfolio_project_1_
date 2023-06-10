@@ -25,10 +25,10 @@ h2 {
     width: 100%;
     float: left;
     font-size: 300%;
-    height: 100px;
     background: #FFFFFF;
     padding-left: 35px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* navigation links */
@@ -43,7 +43,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .menu ul {
@@ -63,11 +62,9 @@ h2 {
     text-decoration: underline #3a3a3a;
 }
 
-
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 /* main section */
@@ -135,7 +132,7 @@ img {
 
 /* quote section */
 #quote-section {
-    height: 150px;
+    max-height: 150px;
     margin-bottom: 75px;
     padding-top: 75px;
     width: 100%;
@@ -172,7 +169,6 @@ footer {
 
 .social-media i:hover {
     color: #2f6d3c;
-
 }
 
 /* aboutme */
@@ -183,7 +179,6 @@ footer {
     text-align: center;
     float: left;
     background-color: #FFFFFF;
-
 }
 
 .left-aboutme-heading {
@@ -193,7 +188,6 @@ footer {
     margin-bottom: 0vh;
     clear: both;
     background-color: #FFFFFF;
-
 }
 
 #imgFrame {
@@ -203,7 +197,6 @@ footer {
     padding: 5%;
     margin: 5%;
     float: right;
-
 }
 
 #right-aboutme {
@@ -214,7 +207,6 @@ footer {
     margin: 3%;
     float: left;
     background-color: #FFFFFF;
-
 }
 
 .right-aboutme-heading {
@@ -357,22 +349,22 @@ div.description {
 
 .response-message p {
     text-align: center;
-
 }
 
 /* media queries */
 
-/* for screens 1200px and down */
+/* for screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
     #main-section {
-        width: 65%;
+        width: 100%;
         height: 1200px;
         margin: 0 auto;
     }
 
     #left-about,
     #right-about {
-        margin-top: 50px;
+        margin-top: 100px;
         width: 100%;
         float: left;
         padding-top: 20px;
@@ -384,6 +376,53 @@ div.description {
         float: left;
         padding: 0;
         margin: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* about me */
+    #left-aboutme {
+        width: 100%;
 
     }
+
+}
+
+/* for screens from 950px wide  and down */
+@media screen and (max-width: 950px) {
+
+    /* menu */
+    #menu {
+        clear: left;
+        float: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu li {
+        padding-left: 0px;
+    }
+
+    /* logo */
+    .logo {
+        max-width: 100%;
+        max-height: auto;
+        height: auto;
+    }
+
+    /* main section home page */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -150px;
+    }
+
+    .left-about-heading {
+        margin-bottom: 0vh;
+    }
+
+
+    /* about me */
 }
