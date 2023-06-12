@@ -172,6 +172,8 @@ footer {
 }
 
 /* aboutme */
+
+
 #left-aboutme {
     font-size: 120%;
     padding-top: 0px;
@@ -423,6 +425,17 @@ div.description {
         margin-bottom: 0vh;
     }
 
-
     /* about me */
+
+    /* services */
+    .rsponsive-services {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
 }
