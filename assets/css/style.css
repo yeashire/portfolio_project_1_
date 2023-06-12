@@ -76,12 +76,6 @@ h2 {
     flex-direction: column;
 }
 
-/* #main-section {
-    width: 100%;
-    display: flex;
-    padding: 1em;
-} */
-
 #left-about {
     font-size: 120%;
     padding-top: 200px;
@@ -172,33 +166,37 @@ footer {
 }
 
 /* aboutme */
-
+.about-me-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
 
 #left-aboutme {
-    font-size: 120%;
+    /* font-size: 120%; */
     padding-top: 0px;
-    width: 50%;
-    text-align: center;
-    float: left;
+    width: 30%;
+    text-align: center !important;
+    justify-content: center !important;
     background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
-.left-aboutme-heading {
+.about-me-container-image {
+    width: 300px;
+    height: 100%;
+    background-color: #2f6d3c;
+    margin: 0 auto;
+}
+
+#left-aboutme img {
+    display: block;
     width: 100%;
-    float: right;
-    line-height: 0px;
-    margin-bottom: 0vh;
-    clear: both;
-    background-color: #FFFFFF;
-}
-
-#imgFrame {
-    width: 500px;
-    height: 800px;
-    border: 30px solid #FFFFFF;
-    padding: 5%;
-    margin: 5%;
-    float: right;
+    height: auto;
+    object-fit: contain;
 }
 
 #right-aboutme {
@@ -364,6 +362,10 @@ div.description {
         margin: 0 auto;
     }
 
+    .about-me-container {
+        flex-direction: column;
+    }
+
     #left-about,
     #right-about {
         margin-top: 100px;
@@ -432,6 +434,13 @@ div.description {
     }
 
     /* about me */
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    #right-aboutme {
+        width: 100%;
+    }
 
     /* services */
     .rsponsive-services {
