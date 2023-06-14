@@ -224,21 +224,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     * I had to add an extra media query for the main section of the page in order for the gap between the image and the quote to decrease on mobile devices. The solution was to switch the height from 1200px to 850 px.
     * The Services page was loading to long.
     The solution for that was to resize images.
-        
-    
-   
-        
-        
-
-    
-        
-        
+            
     ---
 + ##### Unsolved bugs
     - None.
 + ##### Mistakes
-    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-    - While progressing in my code I learned to use present simple tense in commits.
+    * I didn't fully grasp the idea of commits, they were not descriptive enough, I was to focus on HTML and CSS and forgot to add some of them.
+    However, I realised where I made a mistake and will avoid it in the new project.
 
 ---
 ## Validator testing
