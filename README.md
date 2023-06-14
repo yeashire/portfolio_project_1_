@@ -271,22 +271,22 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
   #### Home page
 
-  
+  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
 
   #### About Me page
 
-
+![About Me Page Lighthouse](documentation/lighthouse_aboutme_page.png)
 
   #### Services page
 
-  
+  ![Servives Page Lighthouse](documentation/lighthouse_services_page.png)
 
   #### Contact page
 
-
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
 
   #### Response page
-
+  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
  
 
 ---
