@@ -293,11 +293,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository], navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/yeashire/portfolio_project_1_), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here]
+The live link can be found [here](https://yeashire.github.io/portfolio_project_1_/)
 
 ## Local Deployment
 
@@ -311,35 +311,41 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Future improvements
-- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
+
 - add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional contact form when;
+- improve the quality and quantity of the commit messages 
+- add more content to services section 
+- add fully functional contact form ;
 
 ---
 ## Credits
 
 + #### Content
-
+* Inspiration for some parts of the website came from love running project.
+* Inspiration for image display in services section came from w3schools. 
     
 
 + #### Media
 
-    - All the images for the website were taken from 
-    + Main cons images:
+    - All the images for the website were taken from ![Pexels](https://www.pexels.com/)
+
+    * Home
+    ![Main image](https://www.pexels.com/photo/smiling-woman-in-black-blazer-4098273/)
         
-  
-    + Gallery:
+    * About Me:
+    ![Main image_2](https://www.pexels.com/photo/man-in-black-suit-jacket-sitting-on-chair-4098288/)
+    * Services
+    ![Services image 1](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-brown-wooden-chair-4098368/)
+    ![Services image 2](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-beside-woman-in-white-long-sleeve-shirt-4098161/)
+    ![Services image 3](https://www.pexels.com/photo/woman-using-laptop-4065624/)
+
      
 
 + #### Tools
-
-    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
-    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
-    - [EzGif](https://ezgif.com) was used to resize GIF images.
-    - [GIMP](https://www.gimp.org/) was used to edit all README.md images.
-    - [cooler](https://coolors.co/) was used to create the color palette.
+    * [Techsini](https://techsini.com/) was used to generate mockup.
+    * [Coolors](https://coolors.co/) was used to generate color pallet.
+    * [Photoshop](https://www.adobe.com/ie/) was used to resize images for the 
+    * [Figma](https://www.figma.com/) was used to build wireframes for the site.
 
 
 ---
