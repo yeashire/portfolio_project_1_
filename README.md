@@ -273,7 +273,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   
 
-  #### Gallery page
+  #### About Me page
+
+
+
+  #### Services page
 
   
 
