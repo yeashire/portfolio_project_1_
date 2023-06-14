@@ -217,17 +217,22 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ​
 ### Bugs
 + ##### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
-    
-        *Solutions:* Outline was replaced with border properties.
-    
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+   
+    * I had problems with the services page images section, the images where not responsive on screans below 1200px. 
+     The solution was to add a new clas and style by useing display: flex;
+    flex-wrap: wrap; flex-direction: column;
+    * I had to add an extra media query for the main section of the page in order for the gap between the image and the quote to decrease on mobile devices. The solution was to switch the height from 1200px to 850 px.
+    * The Services page was loading to long.
+    The solution for that was to resize images.
         
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+    
+   
+        
+        
 
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+    
         
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+        
     ---
 + ##### Unsolved bugs
     - None.
@@ -242,8 +247,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - No errors or warnings were found when passing through the official W3C validator.
  ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
 
-  
-    
   #### About Me Page
    - No errors or warnings were found when passing through the official W3C validator.
  ![About Me Page HTML Validator](documentation/w3_validator_aboutme_page.png)
@@ -299,15 +302,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 The live link can be found [here](https://yeashire.github.io/portfolio_project_1_/)
 
-## Local Deployment
-
-In order to make a local copy of this project, you can clone it.
-In your IDE Terminal, type the following command to clone my repository:
-
-- `git clone `
-
-- Alternatively, if you use Gitpod, you can [click here] which will start the Gitpod workspace for you.
-
 ---
 
 ## Future improvements
@@ -327,14 +321,15 @@ In your IDE Terminal, type the following command to clone my repository:
 
 + #### Media
 
-    - All the images for the website were taken from ![Pexels](https://www.pexels.com/)
+    - All the images for the website were taken from:
+     ![Pexels](https://www.pexels.com/)
 
-    * Home
+    * Home:
     ![Main image](https://www.pexels.com/photo/smiling-woman-in-black-blazer-4098273/)
         
     * About Me:
     ![Main image_2](https://www.pexels.com/photo/man-in-black-suit-jacket-sitting-on-chair-4098288/)
-    * Services
+    * Services:
     ![Services image 1](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-brown-wooden-chair-4098368/)
     ![Services image 2](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-beside-woman-in-white-long-sleeve-shirt-4098161/)
     ![Services image 3](https://www.pexels.com/photo/woman-using-laptop-4065624/)
