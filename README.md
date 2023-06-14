@@ -351,7 +351,8 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 
 ## Acknowledgments
-
-
-
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova) She was a big help on this project, gave me good advice and helped every step of the way.
+- [Piotr Szelest](https://ie.linkedin.com/in/piotr-szelest-10984084), My fiancé, helped me test the website and gave me advice when I got stuck.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community where very helpful.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) helped me to understand flex.
 ---
