@@ -4,7 +4,7 @@
 # *Anna Kowalski*
 
 
-Anna Kowalski is a website containing information about Psychotherapist Anna Kowalski. The website is a source of information about Anna. Services she provides, prices, and a contact point. 
+Anna Kowalski is a website containing information about Psychotherapist Anna Kowalski. The website is a source of information about Anna. The services she provides, prices, and a contact point. 
 
 
 The site can be accessed by this [link](https://yeashire.github.io/portfolio_project_1_/)
@@ -25,7 +25,7 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 ### Returning VisitorGoals:
 * As a Returning Visitor, I would like to find information about the training Psychotherapist has completed and their credentials.
 * As a Returning Visitor, I would like to find up-to-date price list
-* As a Returning Visitor, I would like to be able easily contact the Psychotherapist with further questions I have.
+* As a returning visitor, I wish I could easily contact the psychotherapist with more questions.
 
 
 ## Features
@@ -36,8 +36,8 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
     - Positioned at the top of the page below logo.
     - Contains navigation links streched trough the lenght of the entire page:
      * HOME- brings users to the home page where they can have a brief idea about the Psychotherapist.  
-     * ABOUT ME- brings users to page wher they can read specific details about Anna, like her training etc. 
-     * SERVICES- brings user to the page where tey can find out types of therapy and price lists 
+     * ABOUT ME- brings users to a page where they can read specific details about Anna, like her training etc. 
+     * SERVICES- brings user to the page where they can find out types of therapy and price lists 
      * CONTACT- brings the user to the page with the contact form where they can fill out the form to comtact the Psychotherapist. 
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
@@ -45,11 +45,11 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 
     - The navigation bar is responsive:
      
-        * On tablets: navigation bar is displayed in column style
+        * On tablets: navigation bar is displayed in the column style
         ![NavBar tablets](documentation/navbar_tablets.png)
 
 
-        * On mobile devices: navigation bar is displayed in column style
+        * On mobile devices: navigation bar is displayed in the column style
 
           ![NavBar mobile](documentation/navbar_mobile.png)
         
@@ -64,7 +64,7 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
         * The values of the Psychotherapist.
         * Shows Anna Kowalski positive picture.
         * Describes specialization/field that Anna is working in.   
-        * Shows a quote that gives a sens of Therapist aproach.
+        * Shows a quote that gives a sense of Therapist approach.
 
 
     ![Home Page](documentation/home_page.png)
@@ -83,7 +83,7 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 + ### About Me page
 
     * The about me page has an image of Anna taking notes.
-    * The about me page has in Insightful information about her experience.
+    * The about me page has insightful information about her experience.
     * The page is responsive the layout depends on the user screen. 
 
 
@@ -93,8 +93,8 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 + ### Services Page
 
     * The services page has tree images
-    * Under each image users can find type of therapy provided 
-    * The bottom part of page hass fees specifiing the individual category
+    * Under each image users can find the type of therapy provided 
+    * The bottom part of the page has fees specifying the individual category
 
 ![Services Page](documentation/services_page.png)
 ---
@@ -116,7 +116,7 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 
     * Response page appears after submitting the contact form.
     * It contains the thank you message and the promise to get in touch with the user. 
-    * It directs the user automatically  to the main page in 10 seconds.
+    * It directs the user automatically to the main page in 10 seconds.
 
     ![Response page](documentation/response_page.png)
 
@@ -140,10 +140,10 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 
 ![Color pallet](documentation/color_pallet.png)
 
-* White- was used as a main color for the website, as this color i associated with honesty, cleanliness, the beginning, the new, neutrality 
-* Alto- light soft grey was used to accent navigation and footer, is complementing the white and gives sutle contrast. Light grey is calming and symbolizes neutrality.
-* Mine Shaft- was used as for typography, contact form, social media icons, thank you message. Dark soft grey gives accents to important parts of the site. 
-* Killarney- medium soft green was used for subbmit button and as hover color for social media. It complements the pallet chosen and gives further sens of calmness.
+* White- was used as a main color for the website, as this color is associated with honesty, cleanliness, the beginning, the new, neutrality 
+* Alto- light soft grey was used to accent navigation and footer, is complementing the white and gives subtle contrast. Light grey is calming and symbolizes neutrality.
+* Mine Shaft- was used as for typography, contact form, social media icons, thank you message. Dark soft grey gives accent to important parts of the site. 
+* Killarney- medium soft green was used for submit button and as the hover color for social media. It complements the pallet chosen and gives a further sens of calmness.
 
 
 
@@ -158,8 +158,7 @@ The site can be accessed by this [link](https://yeashire.github.io/portfolio_pro
 
 ![Accent Font](documentation/accent_font.png)
 
-- Playfair Display Google Font was used for logo and to accent satements on home page. It provides nice contarast to Poppins font.
-
+- Playfair Display Google Font was used for the logo and to accent statement on the home page. It provides a nice contrast to Poppins font.
 
 ### Wireframe
 ![Wireframe](documentation/wireframe.png)
@@ -181,8 +180,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
-    * I can confirm te website is responsive.
-    * Functions pproperly on all standard screen sizes.
+    * I can confirm the website is responsive.
+    * Functions properly on all standard screen sizes.
     * All links are functional and bring the user to the desired place.
 
   
@@ -206,7 +205,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Contact page | | | | | |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears.|
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
 | Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
@@ -218,11 +217,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ### Bugs
 + ##### Solved bugs
    
-    * I had problems with the services page images section, the images where not responsive on screans below 1200px. 
-     The solution was to add a new clas and style by useing display: flex;
-    flex-wrap: wrap; flex-direction: column;
+    * I had problems with the services page images section, the images were not responsive on screens below 1200px. 
+     The solution was to add a new class and style by using display: flex;
+    Flex-wrap: wrap; flex-direction: column;
     * I had to add an extra media query for the main section of the page in order for the gap between the image and the quote to decrease on mobile devices. The solution was to switch the height from 1200px to 850 px.
-    * The Services page was loading to long.
+    * The Services page was loading too long.
     The solution for that was to resize images.
             
     ---
@@ -298,10 +297,10 @@ The live link can be found [here](https://yeashire.github.io/portfolio_project_1
 
 ## Future improvements
 
-- add custom 404 page;
-- improve the quality and quantity of the commit messages 
-- add more content to services section 
-- add fully functional contact form ;
+- Add custom 404 page.
+- Improve the quality and quantity of the commit messages. 
+- Add more content to services section. 
+- Add fully functional contact form.
 
 ---
 ## Credits
@@ -313,18 +312,18 @@ The live link can be found [here](https://yeashire.github.io/portfolio_project_1
 
 + #### Media
 
-    - All the images for the website were taken from:
-     ![Pexels](https://www.pexels.com/)
+    * All the images for the website were taken from:
+     [Pexels](https://www.pexels.com).
 
     * Home:
-    ![Main image](https://www.pexels.com/photo/smiling-woman-in-black-blazer-4098273/)
+    - [Main image](https://www.pexels.com/photo/smiling-woman-in-black-blazer-4098273)
         
     * About Me:
-    ![Main image_2](https://www.pexels.com/photo/man-in-black-suit-jacket-sitting-on-chair-4098288/)
+    - [Main image_2](https://www.pexels.com/photo/man-in-black-suit-jacket-sitting-on-chair-4098288/)
     * Services:
-    ![Services image 1](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-brown-wooden-chair-4098368/)
-    ![Services image 2](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-beside-woman-in-white-long-sleeve-shirt-4098161/)
-    ![Services image 3](https://www.pexels.com/photo/woman-using-laptop-4065624/)
+    - [Services image 1](https://www.pexels.com/photo/woman-in-black-long-sleeve-shirt-sitting-on-brown-wooden-chair-4098368/)
+    - [Services image 2](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-beside-woman-in-white-long-sleeve-shirt-4098161/)
+    - [Services image 3](https://www.pexels.com/photo/woman-using-laptop-4065624/)
 
      
 
